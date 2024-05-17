@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    height: calc(40vh);
+    gap:100px;
+}
+
+.formContainer {
+    flex: 1;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.imgContainer{
+    flex: 1;
+    position: relative;
+}
+
+
