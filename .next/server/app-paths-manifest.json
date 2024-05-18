@@ -1,0 +1,5 @@
+{
+  "/invoice-notes/page": "app/invoice-notes/page.js",
+  "/add-notes/page": "app/add-notes/page.js",
+  "/page": "app/page.js"
+}
