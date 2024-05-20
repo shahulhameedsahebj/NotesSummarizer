@@ -11,7 +11,8 @@
 
 # next.js
 /out/
-
+# production
+/.next
 
 # misc
 .DS_Store

@@ -101,19 +101,11 @@ a{
     flex-direction: column;
     justify-content: space-between;
 }
-/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/navbar/links/links.module.css ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************/
-.links_links__a8XY9{
-    display:flex;
-    align-items: center;
-    gap:10px;
-}
 /*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/footer/footer.module.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************/
 .footer_container__cL_uA{
-    height:100px;
+    height:50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,6 +117,14 @@ a{
 }
 .footer_text__uJ0fI{
     font-size: 12px;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/navbar/links/links.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.links_links__a8XY9{
+    display:flex;
+    align-items: center;
+    gap:10px;
 }
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/navbar/links/navLink/navLink.module.css ***!
@@ -144,7 +144,7 @@ a{
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/navbar/navbar.module.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************/
 .navbar_container__CZncu{
-    height:100px;
+    height:80px;
     display:flex;
     align-items: center;
     justify-content: space-between;

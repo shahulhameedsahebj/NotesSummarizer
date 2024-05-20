@@ -16,7 +16,10 @@ const AddNotes = () => {
             Invoices: invoices,
             NoteComment: noteComment,
         }).then(function (response) {
-            alert(response);
+            alert("Notes saved successfully!");
+            setClientCode("");
+            setInvoices("");
+            setNoteComment("");
         }).catch(function (error) {
             console.log(error);
         })

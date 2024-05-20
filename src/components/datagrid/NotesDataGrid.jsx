@@ -38,9 +38,8 @@ function getRowId(row){
     //console.log("Row",row)
    return row.NoteID;
 }
-export default function NotesDataGrid({data}) {
+export default function NotesDataGrid({data, selectedValues}) {
     
-    console.log(data);
   return (
     <Box sx={{ height: 400, width: '100%' }}>
       <DataGrid
@@ -58,7 +57,7 @@ export default function NotesDataGrid({data}) {
         checkboxSelection
         
         onRowSelectionModelChange={(ids) => {
-            console.log("ids",ids);
+            selectedValues(ids.toString());
         }}
       />
     </Box>
