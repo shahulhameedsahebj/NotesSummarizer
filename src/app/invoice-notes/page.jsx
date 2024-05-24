@@ -9,8 +9,8 @@ const InvoiceNotes = () => {
     const urlGetClients = "https://gcolapi.azurewebsites.net/getClients";
     const urlGetNotes = "https://gcolapi.azurewebsites.net/getNotesByClient";
     const urlGetInvoices = "https://gcolapi.azurewebsites.net/getInvoiceDetailsByClient";
-    //const urlGetSummary = "https://gcolapi.azurewebsites.net/getSummaryForNotes/";
-    const urlGetSummary = "https://gcolapi.azurewebsites.net/getSummaryForNotesTest/";
+    const urlGetSummary = "https://gcolapi.azurewebsites.net/getSummaryForNotes/";
+   // const urlGetSummary = "https://gcolapi.azurewebsites.net/getSummaryForNotesTest/";
     const [clients, setClients] = useState([]);
     const [notes, setNotes] = useState([]);
     const [invoices, setInvoices] = useState([]);
