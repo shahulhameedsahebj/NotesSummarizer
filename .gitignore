@@ -12,7 +12,7 @@
 # next.js
 /out/
 # production
-/.next
+/.next/
 
 # misc
 .DS_Store

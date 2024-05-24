@@ -11,14 +11,20 @@ const columns = [
     field: 'NoteCreatedDate',
     headerName: 'Created Date',
     width: 200,
-    editable: true,
+    editable: false,
     valueFormatter: (value) => formatDate(value),
+  },
+  {
+    field: 'INVOICENUMBER',
+    headerName: 'Invoice Number',
+    width: 180,
+
   },
   {
     field: 'NoteComments',
     headerName: 'Note Comments',
     width: 600,
-    editable: true,
+    editable: false,
   },
 
 ];
@@ -57,7 +63,7 @@ export default function NotesDataGrid({data, selectedValues}) {
         checkboxSelection
         
         onRowSelectionModelChange={(ids) => {
-            selectedValues(ids.toString());
+            selectedValues(ids);
         }}
       />
     </Box>
