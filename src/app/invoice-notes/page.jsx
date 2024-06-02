@@ -53,11 +53,11 @@ const InvoiceNotes = () => {
     const [checked, setChecked] = useState(false);
     const getSummaryDetails = async () => {
         if (selectedNotes.length > 5) {
-            alert("Maximum 5 notes can be selected!")
+            alert("Maximum 5 notes can be selected!") 
             return false;
         }
         setNoteSummaryInput("Loading...");
-        setNoteSummaryOutput("");
+        setNoteSummaryOutput("Loading...");
         axios.get(`${urlGetSummary}?Noteids=${selectedNotes.toString()}`)
             .then(function (response) {
                 console.log(response);

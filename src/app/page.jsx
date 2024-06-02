@@ -7,8 +7,8 @@ const Home = () => {
       <h1 className={styles.title}>Hackathon</h1>
       <hr />
 
-      <p style={{ textAlign: "justify" }}>Automatic permissions and knowledge workflows ensure the right person gets the right information. Document automation helps you control over-sharing and secure information. Powered by M-Files GenAI technology, M-Files Aino, the platform helps organise information, understand the context of documents, and route documents.</p>
-      <p style={{ textAlign: "justify" }}>Get feedback and share updates instantly, both internally and externally. With M-Files document automation, your teams can centralise, organise and manage documents in an information repository with intelligent document search capabilities.  </p>
+      <p style={{ textAlign: "justify" }}>The Collection Notes Summarizer is a tool designed to summarize past collection follow-up details. Leveraging the power of LLM and NLP techniques, it analyzes collection notes and documents from previous interactions between collectors and customers.</p>
+      <p style={{ textAlign: "justify" }}>By processing a large amount of information within seconds, it captures key details such as a previous promise to pay, the potential for a dispute, the reason for delays in payment etc. Additionally, it provides a succinct summary of each note  to assist the collectors with their follow-up activities.</p>
     </div>
     <div className={styles.imgContainer}>
       <Image src="/hackathon.jpg" alt="" fill className={styles.hackathonImg} /></div>
